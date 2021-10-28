@@ -1,0 +1,84 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+ul,
+li,
+button,
+a,
+input {
+  margin: 0;
+  padding: 0;
+}
+input {
+  border: 0;
+}
+body {
+  background-color: lightblue;
+}
+body > div > div > h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+}
+/* #calcul > button {
+  border: 0;
+} */
+.a {
+  max-width: 300px;
+}
+.b {
+  margin: 20vh auto;
+}
+.c {
+  display: flex;
+}
+.d {
+  flex-direction: column;
+}
+.e {
+  align-items: center;
+}
+.f {
+  margin-bottom: 10px;
+}
+.g{
+    flex: 1 1 auto;
+}
+.h{
+    width: 100%;
+}
+.i{
+    margin-right: 5px;
+}
+.j{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.k{
+    height: 5vh;
+}
+.l{
+    text-align: center;
+}
+.m{
+    border-radius: 5px;
+}
+.input-field > input{
+    font-family: monospace;
+    font-size: 0.8rem;
+}
