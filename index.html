@@ -13,30 +13,35 @@
         <h1>calculator using js</h1>
       </div>
       <div class="input-field">
-        <input
-          type="text"
-          name="fvalue"
-          id="fvalue"
-          placeholder="Enter 1st number"
-          class="f k l m"
-        />
-        <input
-          type="text"
-          name="svalue"
-          id="svalue"
-          placeholder="Enter 2nd number"
-          class="f k l m"
-        />
+        <div id="left side">
+          <input
+            type="text"
+            name="fvalue"
+            id="fvalue"
+            placeholder="Enter 1st number"
+            class="f k l m"
+          />
+          <input
+            type="text"
+            name="svalue"
+            id="svalue"
+            placeholder="Enter 2nd number"
+            class="f k l m"
+          />
+        </div>
+        <div id="right-side">
+
+        </div>
       </div>
-      <div id="calcul" class="f c h">
+      <div id="calcul" class="f c h n">
         <button onclick="add()" id="add" class="g i">+</button>
         <button onclick="sub()" id="sub" class="g i">-</button>
         <button onclick="mul()" id="mul" class="g i">*</button>
         <button onclick="div()" id="divi" class="g">/</button>
       </div>
       <div id="result">
-        <button onclick="res()" id="rsbtt">result</button>
-        <p id="ab" class="j">dummy result</p>
+        <button id="clrbtt">clear</button>
+        <button id="rsbtt">result</button>
       </div>
     </div>
     <script src="./index.js"></script>

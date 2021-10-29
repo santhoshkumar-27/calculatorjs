@@ -57,28 +57,31 @@ body > div > div > h1 {
 .f {
   margin-bottom: 10px;
 }
-.g{
-    flex: 1 1 auto;
+.g {
+  flex: 1 0 auto;
 }
-.h{
-    width: 100%;
+.h {
+  width: 100%;
 }
-.i{
-    margin-right: 5px;
+.i {
+  margin-right: 5px;
 }
-.j{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.j {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.k{
-    height: 5vh;
+.k {
+  height: 5vh;
 }
-.l{
-    text-align: center;
+.l {
+  text-align: center;
 }
-.m{
-    border-radius: 5px;
+.m {
+  border-radius: 5px;
 }
-.input-field > input{
-    font-family: monospace;
-    font-size: 0.8rem;
+.n{
+  flex-wrap: wrap;
+}
+.input-field > input {
+  font-family: monospace;
+  font-size: 0.8rem;
 }
